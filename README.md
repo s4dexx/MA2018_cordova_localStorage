@@ -13,7 +13,7 @@ Um den Speicher zu verwenden bietet die localStorage Komponente ein synchrones k
 
 ## Benutzung
 
-Der locale Spceicher wird durch __windows.localStorage__ aufgerufen.
+Der locale Spceicher wird durch __windows.localStorage__ aufgerufen.  
 Der Session bezogene Speicher wird durch __window.sessionStorage__ verwendet.
 
 Zu den wichtigsten Methoden gehören:
