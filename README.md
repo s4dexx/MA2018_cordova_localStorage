@@ -14,6 +14,7 @@ Um den localen Speicher zu verwenden bietet die local storage Komponente ein syn
 Der locale Spceicher wird durch __windows.localStorage__ aufgerufen.
 
 Zu den wichtigsten Methoden gehören:
+
 `var storage = window.localStorage;
 var value = storage.getItem(key); // Wert eines mitgelieferten Schlüssels wird abgerufen
 storage.setItem(key, value)       // festlegen eines Schlüssel/Werte-Paares
