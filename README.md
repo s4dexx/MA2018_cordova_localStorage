@@ -44,5 +44,5 @@ storage.removeItem(key)           // Schlüssel/Werte-Paar durch Übermittlung d
 ## Ausführen des Beispiels
 Starten: ionic serve  
 Öffnen des Webbrowsers: localhost:8100  
-Daten Eingeben und per Button speichern und abrufen
+Daten Eingeben und per Button speichern und abrufen  
 Ansicht für mobile Endgerät: http:\\localhost:8100/ionic-lab  
