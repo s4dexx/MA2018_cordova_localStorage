@@ -8,6 +8,11 @@ import { ListPage } from '../pages/list/list';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { LoginProvider } from '../providers/login/login';
+import { TrainerProvider } from '../providers/trainer/trainer';
+import { AdminProvider } from '../providers/admin/admin';
+import { ProfileProvider } from '../providers/profile/profile';
+import { SpielerProvider } from '../providers/spieler/spieler';
 
 @NgModule({
   declarations: [
@@ -28,7 +33,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    LoginProvider,
+    TrainerProvider,
+    AdminProvider,
+    ProfileProvider,
+    SpielerProvider
   ]
 })
 export class AppModule {}
