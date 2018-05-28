@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1d9e016-f0e5-41e7-a959-07f01475f04a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/clubcorner/src/Schema/training.schema.ts" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/clubcorner/src/Schema/game.schema.ts" afterPath="$PROJECT_DIR$/clubcorner/src/Schema/game.schema.ts" />
-      <change beforePath="$PROJECT_DIR$/clubcorner/src/Schema/team.schema.ts" afterPath="$PROJECT_DIR$/clubcorner/src/Schema/team.schema.ts" />
-      <change beforePath="$PROJECT_DIR$/clubcorner/src/providers/admin/admin.ts" afterPath="$PROJECT_DIR$/clubcorner/src/providers/admin/admin.ts" />
-      <change beforePath="$PROJECT_DIR$/clubcorner/src/providers/trainer/trainer.ts" afterPath="$PROJECT_DIR$/clubcorner/src/providers/trainer/trainer.ts" />
+      <change beforePath="$PROJECT_DIR$/clubcorner/.gitignore" afterPath="$PROJECT_DIR$/clubcorner/.gitignore" />
     </list>
     <ignored path="clubcorner_frontend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +26,8 @@
       <file leaf-file-name="trainer.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/clubcorner/src/providers/trainer/trainer.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="71" column="20" lean-forward="true" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
               </folding>
@@ -87,6 +83,7 @@
         <option value="$PROJECT_DIR$/clubcorner/src/Schema/game.schema.ts" />
         <option value="$PROJECT_DIR$/clubcorner/src/Schema/training.schema.ts" />
         <option value="$PROJECT_DIR$/clubcorner/src/providers/trainer/trainer.ts" />
+        <option value="$PROJECT_DIR$/clubcorner/.gitignore" />
       </list>
     </option>
   </component>
@@ -484,7 +481,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527341467373</updated>
-      <workItem from="1527501611658" duration="4502000" />
+      <workItem from="1527501611658" duration="4601000" />
     </task>
     <task id="LOCAL-00001" summary="Service Struktur">
       <created>1527353024898</created>
@@ -507,11 +504,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527503476079</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Services für Trainer und Admin">
+      <created>1527506147702</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1527506147702</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4502000" />
+    <option name="totallyTimeSpent" value="4601000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -594,7 +598,8 @@
     <MESSAGE value="Service Struktur" />
     <MESSAGE value="Environment File, Pfad für apiEndpunkt" />
     <MESSAGE value="Schema für Objekte; wir müssen noch absprechen, welche Merkmale die einzelnen Objekte haben sollen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Schema für Objekte; wir müssen noch absprechen, welche Merkmale die einzelnen Objekte haben sollen" />
+    <MESSAGE value="Services für Trainer und Admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Services für Trainer und Admin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -689,10 +694,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/clubcorner/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/clubcorner/src/providers/trainer/trainer.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state relative-caret-position="425">
+          <caret line="71" column="20" lean-forward="true" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
           </folding>
