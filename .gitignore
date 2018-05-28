@@ -19,6 +19,8 @@ coverage
 
 clubcorner/www
 
+clubcorner/.sourcemaps
+
 # nyc test coverage
 .nyc_output
 
