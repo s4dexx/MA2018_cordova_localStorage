@@ -1,4 +1,4 @@
-export interface game {
+export interface GameSchema {
   id: number;
   home: boolean;
   opponent: string;
